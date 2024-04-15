@@ -1,6 +1,6 @@
 import express, { NextFunction, Request, Response } from "express";
 import cors from "cors";
-import usersRouters from "./routers/usersRouters";
+import usersRouters from ".././src/routers/usersRouters";
 
 const PORT = process.env.PORT || 8080;
 const app = express();
